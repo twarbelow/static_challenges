@@ -10,7 +10,8 @@ header {
   /* how to top/bottom center everything in this?? */
 }
 header h1 {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   float: left;
   padding: 15px
 }
@@ -26,26 +27,30 @@ nav ul {
   background: #052D63;
   padding: 15px;
   color: white;
+  text-align: center;
 }
 nav li {
   display: inline-block;
-  margin: 0 100px
+  width: 500px;
+  text-align: center;
 }
-#hero {
+#hero-img {
   background: url('../images/1.jpg') no-repeat;
   background-size: cover;
-  padding: 300px
+  padding: 500px
 }
-#hero h2 {
+#hero-img h2 {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 #hero article {
   background: #1D1D1D;
   color: white;
 }
 #hero p {
-  padding: 5px;
+  padding: 10px;
+  margin: 15px 10px
 }
 #places {
   background: #D5DEE3;
@@ -54,14 +59,19 @@ nav li {
   width: 30%;
   display: inline-block;
   vertical-align: top;
-  margin: 0 10px;
+  margin: 50px 10px 0 10px;
+  text-align: left
 }
 .three-col img {
-  height: 100px;
-  width: 200px;
-  margin: 25px 0;
+  height: 400px;
+  width:  650px;
+  margin: 0 0 25px 0;
 }
 .three-col h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+article {
 
 }
 footer {
